@@ -3,5 +3,7 @@ resource "aws_s3_bucket" "project_bucket" {
 
   tags = {
     Name = "HanumaKumarBucket"
+    Environment = "Development"
+    Owner       = "Terraform"
   }
 }
